@@ -1,4 +1,4 @@
-# docker-airflow
+# docker-airflow Kubernetes Executor
 [![CI status](https://github.com/puckel/docker-airflow/workflows/CI/badge.svg?branch=master)](https://github.com/puckel/docker-airflow/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)
 [![Docker Build status](https://img.shields.io/docker/build/puckel/docker-airflow?style=plastic)](https://hub.docker.com/r/puckel/docker-airflow/tags?ordering=last_updated)
 
@@ -171,3 +171,9 @@ You can also use those variables to adapt your compose file to match an existing
 # Wanna help?
 
 Fork, improve and PR.
+
+
+# Kubernetes Executor
+Modified Dockerfile to use Kubernetes executor.
+To build:
+`docker build -t airflow-docker-local:1 .`
